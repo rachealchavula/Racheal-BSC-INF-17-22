@@ -1,0 +1,16 @@
+//Obatining file size
+#include<iostream>
+#include <fstream>
+using namespace std;
+int main(){
+
+    streampos begin;
+    streampos end;
+    if Myfile("example.bin", ios::binary);
+    begin = Myfile.tellg();
+    Myfile.seekg(0, ios::end);
+    end =Myfile.tellg();
+    myfile.close();
+    cout<<"size is"<<(end-begin)<<"bytes.\n";
+    return 0;
+}
